@@ -2,6 +2,7 @@
 
 const nextConfig = {
     useFileSystemPublicRoutes: true,
+    // output: 'standalone',
     output: 'export',
     async headers() {
         return [

@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <BackgroundBeamsWithCollision>
-        <Logo_rkzs />
+      <Logo_rkzs width={450} height={450}/>
       </BackgroundBeamsWithCollision>
       <Feature />
       <Slider4/>
