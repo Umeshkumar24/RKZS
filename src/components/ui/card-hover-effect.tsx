@@ -2,6 +2,7 @@ import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
 import { useState } from "react";
+import Logo_c from "../Logo_c";
 
 export const HoverEffect = ({
   items,
@@ -49,9 +50,11 @@ export const HoverEffect = ({
             )}
           </AnimatePresence>
           <Card>
-            <CardTitle>{item.title}</CardTitle>
+            <Logo_c />
+            <center><CardTitle>{item.title}</CardTitle></center>
             <CardDescription>{item.description}</CardDescription>
           </Card>
+          
         </Link>
       ))}
     </div>

@@ -9,39 +9,39 @@ export function CourseList() {
 }
 export const courses = [
   {
-    title: "Stripe",
+    title: "TECH-SIDDHI",
     description:
-      "A technology company that builds economic infrastructure for the internet.",
-    link: "https://stripe.com",
+      "Tech-Siddhi is a technology company that provides a platform for students to learn, grow, and fulfill their essential technical requirements.",
+    link: "https://techsiddhi.in/",
   },
   {
-    title: "Netflix",
+    title: "OKCL",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
-    link: "https://netflix.com",
+      "Odisha Knowledge Corporation Limited (OKCL) is under the administration of the Electronics & Information Technology (E&IT) Department of Government of Odisha.",
+    link: "https://www.okcl.org",
   },
   {
-    title: "Google",
+    title: "CSC ACADEMY",
     description:
-      "A multinational technology company that specializes in Internet-related services and products.",
-    link: "https://google.com",
+      "CSC Academy is a subsidiary of Common Service Centre (CSC SPV) and provides digital literacy and skill development training to the rural youth of India.",
+    link: "https://www.cscacademy.org",
   },
   {
-    title: "Meta",
+    title: "NIELIT",
     description:
-      "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
-    link: "https://meta.com",
+      "National Institute of Electronics & Information Technology (NIELIT) is an autonomous scientific society under the Ministry of Electronics & Information Technology (MeitY), Government of India.",
+    link: "https://www.nielit.gov.in",
   },
   {
-    title: "Amazon",
+    title: "IDEED",
     description:
-      "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
-    link: "https://amazon.com",
+      "Institute of Digital Education and Employment Development (IDEED) focuses on providing digital education and employment opportunities to individuals, enhancing their skills and employability.",
+    link: "https://www.ideed.in",
   },
   {
-    title: "Microsoft",
+    title: "NSDC",
     description:
-      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
-    link: "https://microsoft.com",
+      "National Skill Development Corporation (NSDC) is a unique Public Private Partnership (PPP) model under the Ministry of Skill Development & Entrepreneurship (MSDE), Government of India.",
+    link: "https://nsdcindia.org",
   },
 ];
