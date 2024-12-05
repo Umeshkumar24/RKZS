@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}  
+  #progress {
+    position: fixed;
+    bottom: -20px;
+    right: -20px;
+    transform: rotate(-90deg);
+  }
+  
+  circle {
+    stroke-dashoffset: 0;
+    stroke-width: 15%;
+    fill: none;
+  }
+  
+  #progress .indicator {
+    stroke: rgb(75, 70, 70);
+  }
+  
+  ol {
+    display: flex;
+    list-style: none;
+    height: 400px;
+    overflow-x: scroll;
+    padding: 20px 0;
+    flex: 0 0 600px;
+    margin: 0 auto;
+  }
+  
+  ::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    background: #fff3;
+    -webkit-border-radius: 1ex;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--accent);
+    -webkit-border-radius: 1ex;
+  }
+  
+  ::-webkit-scrollbar-corner {
+    background: rgba(230, 227, 227, 0.2);
+  }
+  
+  ol li {
+    flex: 0 0 600px;
+    stroke: 2px rgb(24, 23, 23);
+    margin: 0 20px 0 0;
+  }
+  
+  
+  
