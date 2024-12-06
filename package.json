@@ -40,6 +40,7 @@
     "react-icons": "^5.4.0",
     "react-spring": "^9.7.4",
     "rkzs": "file:",
+    "simplex-noise": "^4.0.3",
     "tailwind-merge": "^2.5.2",
     "tailwindcss-animate": "^1.0.7",
     "three": "^0.165.0",

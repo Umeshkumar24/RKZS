@@ -25,7 +25,6 @@ function Navbar({ className }: { className?: string }) {
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/Blogs">Blogs</HoveredLink>
             <HoveredLink href="/Admissions">Admissions</HoveredLink>
-            <HoveredLink href="/Queries">Queries</HoveredLink>
           </div>
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Partner Models">
