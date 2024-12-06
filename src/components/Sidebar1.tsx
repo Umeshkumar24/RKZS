@@ -11,7 +11,6 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { CourseList } from "./CourseList";
-// import Logo_rkzs from "./Logo_rkzs";
 import Logo_c from "./Logo_c"
 import AttendanceReport from "./AttendanceReport";
 
@@ -50,7 +49,7 @@ export function Sidebar1(userId: any) {
   return (
     <div
       className={cn(
-        "rounded-lg flex flex-col md:flex-row bg-gray-100 dark:bg-neutral-800 w-full h-full flex-1 max-w-7xl mx-auto border border-neutral-200 dark:border-neutral-700",
+        "rounded-lg flex flex-col md:flex-row bg-gray-700 dark:bg-neutral-800 w-full h-full flex-1 max-w-7xl mx-auto border border-neutral-200 dark:border-neutral-700",
       )}
     >
       <Sidebar open={open} setOpen={setOpen} animate={true}>

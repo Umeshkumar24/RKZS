@@ -43,6 +43,7 @@ const AttendanceReport: React.FC<AttendanceReportProps> = ({ userId }) => {
 
   return (
     <div>
+      <center>
       <h2>Attendance Report</h2>
       <svg width="120" height="120">
         <circle
@@ -68,6 +69,7 @@ const AttendanceReport: React.FC<AttendanceReportProps> = ({ userId }) => {
       <p>
         Attended: {attended} out of {total} classes ({percentage.toFixed(2)}%)
       </p>
+      </center>
     </div>
   );
 };
