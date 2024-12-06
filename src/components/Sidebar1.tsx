@@ -49,12 +49,12 @@ export function Sidebar1(userId: any) {
   return (
     <div
       className={cn(
-        "rounded-lg flex flex-col md:flex-row bg-gray-700 dark:bg-neutral-800 w-full h-full flex-1 max-w-7xl mx-auto border border-neutral-200 dark:border-neutral-700",
+        "rounded-lg flex flex-col md:flex-row bg-gray-600 dark:bg-neutral-800 w-full h-full flex-1 max-w-7xl mx-auto border border-neutral-200 dark:border-neutral-700",
       )}
     >
       <Sidebar open={open} setOpen={setOpen} animate={true}>
         <SidebarBody className="justify-between gap-10">
-          <div className="flex flex-col flex-1 overflow-y-auto overflow-x-hidden">
+          <div className="flex flex-col flex-1 overflow-y-auto overflow-x-auto">
             <>
               <Logo_c />
             </>
