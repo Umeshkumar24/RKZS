@@ -4,6 +4,8 @@ import bcrypt from 'bcryptjs';
 import { RowDataPacket } from 'mysql2';
 import { cookies } from 'next/headers';
 
+export const dynamic = 'force-dynamic';
+
 export async function POST(req: Request) {
   try {
     const conn = await connectDB();

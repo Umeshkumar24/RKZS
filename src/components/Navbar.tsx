@@ -1,5 +1,4 @@
 'use client'
-"use client";
 import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
 import { cn } from "@/utils/cn";
@@ -38,7 +37,7 @@ function Navbar({ className }: { className?: string }) {
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Visit Us">
           <div className="  text-sm grid grid-cols-2 gap-10 p-4">
-            <HoveredLink href="/Queries">Queries</HoveredLink>
+            <HoveredLink href="/Contact">Contact</HoveredLink>
             <HoveredLink href="/Advertise">Visit Us</HoveredLink>
             {/* <ProductItem
               title="Algochurn"

@@ -13,8 +13,9 @@ import { cn } from "@/lib/utils";
 import { CourseList } from "./CourseList";
 // import Logo_rkzs from "./Logo_rkzs";
 import Logo_c from "./Logo_c"
+import AttendanceReport from "./AttendanceReport";
 
-export function Sidebar1() {
+export function Sidebar1(userId: any) {
   const links = [
     {
       label: "Dashboard",
@@ -64,6 +65,7 @@ export function Sidebar1() {
               ))}
             </div>
           </div>
+          <AttendanceReport userId={userId} />
         </SidebarBody>
       </Sidebar>
       <CourseList />

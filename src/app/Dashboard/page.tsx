@@ -54,7 +54,7 @@ export default function Home() {
 
   return (
     <>
-      <Sidebar1/>
+      <Sidebar1 userId={userId}/>
     </>
   );
 }
