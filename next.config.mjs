@@ -2,7 +2,7 @@
 
 const nextConfig = {
     useFileSystemPublicRoutes: true,
-    // output: 'standalone',
+    output: 'standalone',
     // output: 'export',
     async headers() {
         return [
@@ -19,6 +19,7 @@ const nextConfig = {
     },
     images: {
         domains: ['drive.google.com', 'assets.aceternity.com'],
+        unoptimized: true,
     },
 };
 
